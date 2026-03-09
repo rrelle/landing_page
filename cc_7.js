@@ -6,4 +6,4 @@ button.addEventListener('click', () => {
     if (newText) {
         headline.textContent = newText;
     }
-    
+});

@@ -11,6 +11,7 @@ header{
     padding: 20px 40px;
     background: pink;
     color: black;
+    font-family: Lucida Handwriting, cursive;
 }
 nav ul{
     list-style: none;
@@ -44,14 +45,14 @@ nav a:hover{
     background: lightblue;
     padding: 25px;
     border-radius: 10px;
-    text text-align: center;
+    text-align: center;
     width: 250px;
     box-shadow: 0 3px 8px rgba(0,0,0,0.2);
 
 }
-.service.hover{
+.service:hover{
     background: #ff69b4;
-    transform-scale(1.05);
+    transform: scale(1.05);
 
 }
 .cta-form{
